@@ -4,6 +4,7 @@ import graphApp from './components/graph/graph-app.js'
 
 
 const routes = [
+  mode:'history',
   {path:'', component: feedsApp},
   {path:'/game', component: gameApp},
   {path:'/graph', component: graphApp},
